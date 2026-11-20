@@ -5,7 +5,7 @@ import app from "../../utils/api"
 import { FcGoogle } from "react-icons/fc";
 import { useDispatch, useSelector } from 'react-redux';
 import { setUserdata } from '../store/userSlice';
-import SideBar from '../components/SideBar';
+import SideBar from '../components/Sidebar';
 import ChatArea from '../components/ChatArea';
 import Artifact from '../components/Artifact';
 
