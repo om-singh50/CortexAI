@@ -35,7 +35,7 @@ app.get('/api/me', Protect, getCurrentUser);
 
 app.get('/', (req, res)=>{
     res.json({
-        "message":"Hello from gateway v2"
+        "message":"Hello from gateway v1"
     })
 })
 
