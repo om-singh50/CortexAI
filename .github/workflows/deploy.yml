@@ -145,7 +145,7 @@ jobs:
 
       - name: build frontend
         run: | 
-          cd frontend
+          cd Frontend
           npm install
           npm run build        
 
@@ -159,7 +159,7 @@ jobs:
       - name: upload to s3
         run: |
           aws s3 sync \
-          frontend/dist \
+          Frontend/dist \
           s3://${{secrets.S3_BUCKET}} \
           --delete
 
