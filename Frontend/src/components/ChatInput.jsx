@@ -8,7 +8,6 @@ import { addConversation, setConvTitle, setSelectedConversation } from '../store
 import { updateConversation } from '../features/updateConversation'
 import { useRef } from 'react'
 
-
 function ChatInput() {
   const [value, setValue] = useState("")
   const [selectedAgent, setSelectedAgent] = useState("Auto")
